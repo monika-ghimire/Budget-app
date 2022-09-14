@@ -1,0 +1,23 @@
+.headerHolder h1
+{ 
+  font-weight:bold;
+  display: inline;
+}
+.headerHolder
+{
+    display: flex;
+    margin-top:2%;
+
+}
+.budgetsBtnHolder
+{
+    margin-left:60%;
+}
+.addHeading
+{
+    display: inline;
+}
+.CloseBtn
+{
+    /* margin-left:5%; */
+}
