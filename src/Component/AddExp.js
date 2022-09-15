@@ -4,10 +4,10 @@ export default function AddExp() {
   return (
  <>
   <button
-            class="btn  btn-outline-dark ms-1"
+       class="btn btn-outline-primary ms-1"
             type="button"
             data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasRight"
+            data-bs-target="#offcanvasExpense"
             aria-controls="offcanvasRight"
           >
             Add Expense
@@ -16,7 +16,7 @@ export default function AddExp() {
           <div
             class="offcanvas offcanvas-end"
             tabindex="-1"
-            id="offcanvasRight"
+            id="offcanvasExpense"
             aria-labelledby="offcanvasRightLabel"
           >
             <div class="offcanvas-header">
@@ -28,6 +28,7 @@ export default function AddExp() {
                 aria-label="Close"
               ></button>
             </div>
+            <hr/>
             <div class="offcanvas-body">
             <from class="container">
                 <div class="mb-3">

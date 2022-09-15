@@ -7,7 +7,6 @@
 {
     display: flex;
     margin-top:2%;
-
 }
 .budgetsBtnHolder
 {
@@ -17,7 +16,30 @@
 {
     display: inline;
 }
-.CloseBtn
+.CardHolder
 {
-    /* margin-left:5%; */
+    width:90%;
+    height:0 auto;
+   text-align: center;
+   border:1px solid black;
+   margin-top:5%;
+ 
 }
+.progressBarHolder
+{
+    width:90%;
+    margin-left:5%;
+    margin-top:5%;
+}
+.topics
+{
+    display: inline;
+    font-size:25px;
+}
+.Money
+{
+    display: inline;
+    margin-left:40%;
+  color: rgb(150, 147, 147);
+}
+

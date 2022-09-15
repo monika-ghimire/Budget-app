@@ -2,6 +2,8 @@ import React from "react";
 import AddBtn from "./AddBtn";
 import AddExp from "./AddExp";
 import styles from '../styles/head.module.css'
+import Card from "./Card";
+
 
 export default function Head() {
   return (
@@ -9,11 +11,13 @@ export default function Head() {
       <div class="container">
         <header class={styles.headerHolder}>
           <h1>Budgets</h1>
-          <div class={styles.budgetsBtnHolder}></div>
-          <div><AddBtn/></div>
-         
-         <div><AddExp/></div>
+          <div class={styles.budgetsBtnHolder}>
+            <AddBtn/>
+            <AddExp/>
+         </div>
         </header>
+        <hr/>
+       <Card/>
       </div>
     </>
   );
