@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import RouterHolder from './Component/RouterHolder';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Head from './Component/Head';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <Head/>
+ <RouterHolder/>
   </React.StrictMode>
 );
 
