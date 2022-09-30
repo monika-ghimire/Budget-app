@@ -15,7 +15,7 @@ export default function RouterHolder() {
     <>
    <BrowserRouter>
     <Routes>
-    <Route path="/" element={<BudgetPage/>}>
+    <Route path="" element={<BudgetPage/>}>
       </Route>
       <Route path="/ViweExp" element={<ViweExp/>}>
       </Route>
